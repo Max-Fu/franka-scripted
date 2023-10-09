@@ -1,0 +1,9 @@
+# [submodule "third_party/perception"]
+# 	path = third_party/perception
+# 	url = git@github.com:BerkeleyAutomation/perception.git
+# [submodule "third_party/autolab_core"]
+# 	path = third_party/autolab_core
+# 	url = git@github.com:BerkeleyAutomation/autolab_core.git
+[submodule "third_party/gqcnn"]
+	path = third_party/gqcnn
+	url = git@github.com:BerkeleyAutomation/gqcnn.git

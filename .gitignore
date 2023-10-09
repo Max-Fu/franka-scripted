@@ -1,0 +1,12 @@
+build
+__pycache__
+.vscode
+venv
+data
+wandb
+data
+cfg/mask.npy
+*.swp
+*.swo
+calib_images*
+logs

@@ -1,0 +1,18 @@
+chessboard_registration:
+  corners_x: 9 # number of corners in the x direction
+  corners_y: 6 # number of corners in the y direction
+  flip_normal: False
+  point_order: row_major
+
+  # VISUALIZATION PARAMS
+  vis: 0 # visualize registration
+  debug: 1 # show the final pose detection
+  scale_amt: 0.1 # scale for vis axes
+  num_images: 10
+
+sensors:
+  realsense:
+    registration_config:
+      num_transform_avg: 5
+      num_images: 1
+      color_image_rescale_factor: 1.0
